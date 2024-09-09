@@ -26,7 +26,7 @@ for (let i = 0; i < bill.length; i++) {
 
 function calcAverage(arr) {
 
-    return arr.reduce((sun, el) => sun + el, 0)
+    return arr.reduce((sun, el) => sun + el, 0)/arr.length
 }
 calcAverage(totals);
 
